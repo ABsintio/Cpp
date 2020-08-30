@@ -1,0 +1,7 @@
+Old area: 30
+New area: 200
+Default Area: 12
+*rectpointer's area: 200
+*foo's area: 30
+baz[0]'s area: 10
+baz[1]'s area: 18

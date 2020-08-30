@@ -170,6 +170,33 @@ src/Class/ClassI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/ClassI.cpp.s
 .PHONY : src/Class/ClassI.cpp.s
 
+src/Class/ClassII.o: src/Class/ClassII.cpp.o
+
+.PHONY : src/Class/ClassII.o
+
+# target to build an object file
+src/Class/ClassII.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/ClassII.cpp.o
+.PHONY : src/Class/ClassII.cpp.o
+
+src/Class/ClassII.i: src/Class/ClassII.cpp.i
+
+.PHONY : src/Class/ClassII.i
+
+# target to preprocess a source file
+src/Class/ClassII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/ClassII.cpp.i
+.PHONY : src/Class/ClassII.cpp.i
+
+src/Class/ClassII.s: src/Class/ClassII.cpp.s
+
+.PHONY : src/Class/ClassII.s
+
+# target to generate assembly for a file
+src/Class/ClassII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/ClassII.cpp.s
+.PHONY : src/Class/ClassII.cpp.s
+
 src/Costanti/Costanti.o: src/Costanti/Costanti.cpp.o
 
 .PHONY : src/Costanti/Costanti.o
@@ -506,6 +533,9 @@ help:
 	@echo "... src/Class/ClassI.o"
 	@echo "... src/Class/ClassI.i"
 	@echo "... src/Class/ClassI.s"
+	@echo "... src/Class/ClassII.o"
+	@echo "... src/Class/ClassII.i"
+	@echo "... src/Class/ClassII.s"
 	@echo "... src/Costanti/Costanti.o"
 	@echo "... src/Costanti/Costanti.i"
 	@echo "... src/Costanti/Costanti.s"

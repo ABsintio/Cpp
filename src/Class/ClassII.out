@@ -1,0 +1,13 @@
+( 3, 1 ) + ( 1, 2 ) = ( 4, 3 )
+( 3, 1 ) - ( 1, 2 ) = ( 2, -1 )
+a.n = 1
+yes, &a is b
+a.n = 6
+Dummy::n = 7
+myClass.x = 10
+MyPair<int> mp = ( 115, 36 )
+mp.getMax() = 115
+MyPair<double> mpdouble = ( 3, 2.18 )
+mpdouble.getMax() = 3
+myint.increase() = 8
+mychar.uppercase() = J

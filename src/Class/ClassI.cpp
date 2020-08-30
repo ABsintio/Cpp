@@ -30,6 +30,8 @@
  * il compito di inizializzare i membri della classe oppure allocare della memoria. Tale funzione
  * deve avere il nome della classe. Anche se sembrano delle funzioni normalissime i costruttori
  * non possono essere invocati normalmente.
+ *
+ * Come ogni oggetto, anche le classi possono essere puntate dai puntatori.
  */
 #include <iostream>
 
@@ -66,5 +68,17 @@ int main() {
     cout << "New area: " << rect.area() << endl;
     cout << "Default Area: " << rectb.area() << endl;
 
+    // Puntatore ad un classe
+    Rectangle *rectpointer, *foo, *baz;
+    rectpointer = &rect;
+    foo = new Rectangle (5, 6);
+    baz = new Rectangle[2] { {2, 5}, {3, 6} };
+    cout << "*rectpointer's area: " << (*rectpointer).area() << endl;
+    cout << "*foo's area: "         << foo->area()           << endl;
+    cout << "baz[0]'s area: "       << baz[0].area()         << endl;
+    cout << "baz[1]'s area: "       << baz[1].area()         << endl;
+
+    delete foo;
+    delete[] baz;
     return 0;
 }
