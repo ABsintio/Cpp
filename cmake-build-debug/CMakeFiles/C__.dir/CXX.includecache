@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yorunoomo/Scrivania/C++/src/Class/ClassI.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Costanti/Costanti.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Data Structures/Struct.cpp
+iostream
+-
+string
+-
+sstream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Dynamic Memory/DinMemory.cpp
+iostream
+-
+new
+-
+
+/home/yorunoomo/Scrivania/C++/src/Funzioni/Funzioni.cpp
+iostream
+-
+cstdlib
+-
+string
+-
+
+/home/yorunoomo/Scrivania/C++/src/HelloWorld/HelloWorld.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/IO/IO.cpp
+iostream
+-
+string
+-
+sstream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Namespace/Namespace.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Operatori/Operatori.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Statement/Statement.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Template/Template.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Variabili e Tipi/Integer.cpp
+iostream
+-
+
+/home/yorunoomo/Scrivania/C++/src/Variabili e Tipi/String.cpp
+iostream
+-
+string
+-
+
