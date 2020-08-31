@@ -17,4 +17,5 @@ add_executable(C__
         src/Variabili\ e\ Tipi/Integer.cpp
         src/Variabili\ e\ Tipi/String.cpp
         src/Class/ClassI.cpp
-        src/Class/ClassII.cpp)
+        src/Class/ClassII.cpp
+        src/Class/SpecialMembers.cpp)

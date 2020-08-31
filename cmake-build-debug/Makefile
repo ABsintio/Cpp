@@ -197,6 +197,33 @@ src/Class/ClassII.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/ClassII.cpp.s
 .PHONY : src/Class/ClassII.cpp.s
 
+src/Class/SpecialMembers.o: src/Class/SpecialMembers.cpp.o
+
+.PHONY : src/Class/SpecialMembers.o
+
+# target to build an object file
+src/Class/SpecialMembers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/SpecialMembers.cpp.o
+.PHONY : src/Class/SpecialMembers.cpp.o
+
+src/Class/SpecialMembers.i: src/Class/SpecialMembers.cpp.i
+
+.PHONY : src/Class/SpecialMembers.i
+
+# target to preprocess a source file
+src/Class/SpecialMembers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/SpecialMembers.cpp.i
+.PHONY : src/Class/SpecialMembers.cpp.i
+
+src/Class/SpecialMembers.s: src/Class/SpecialMembers.cpp.s
+
+.PHONY : src/Class/SpecialMembers.s
+
+# target to generate assembly for a file
+src/Class/SpecialMembers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/SpecialMembers.cpp.s
+.PHONY : src/Class/SpecialMembers.cpp.s
+
 src/Costanti/Costanti.o: src/Costanti/Costanti.cpp.o
 
 .PHONY : src/Costanti/Costanti.o
@@ -536,6 +563,9 @@ help:
 	@echo "... src/Class/ClassII.o"
 	@echo "... src/Class/ClassII.i"
 	@echo "... src/Class/ClassII.s"
+	@echo "... src/Class/SpecialMembers.o"
+	@echo "... src/Class/SpecialMembers.i"
+	@echo "... src/Class/SpecialMembers.s"
 	@echo "... src/Costanti/Costanti.o"
 	@echo "... src/Costanti/Costanti.i"
 	@echo "... src/Costanti/Costanti.s"
