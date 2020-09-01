@@ -7,6 +7,9 @@ classII:
 specialmember:
 	g++ SpecialMembers.cpp -o SpecialMembers.exe
 
+friendship:
+	g++ Friendship.cpp -o Friendship.exe
+
 runI:
 	./ClassI.exe > ClassI.out
 
@@ -16,13 +19,18 @@ runII:
 runSpecialMembers:
 	./SpecialMembers.exe > SpecialMembers.out
 
+runFriendship:
+	./Friendship.exe > Friendship.out
+
 run:
 	make classI
 	make classII
 	make specialmember
+	make friendship
 	make runI
 	make runII
 	make runSpecialMembers
+	make runFriendship
 	make clean
 
 clean:

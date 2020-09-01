@@ -1,0 +1,19 @@
+FRIEND FUNCTION
+foo.area() = 24
+
+FRIEND CLASS
+w = 2, h = 3
+w = 4, h = 4
+
+INHERITANCE
+w = 4, h = 5
+triangle.area() = 10
+sp.getName() = polygon
+Mother: no parameters
+Doughter: int parameter
+Mother: int parameter
+Son: int parameter
+
+MULTIPLE INHERITANCE
+w = 3, h = 4
+10

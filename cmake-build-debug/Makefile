@@ -197,6 +197,33 @@ src/Class/ClassII.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/ClassII.cpp.s
 .PHONY : src/Class/ClassII.cpp.s
 
+src/Class/Friendship.o: src/Class/Friendship.cpp.o
+
+.PHONY : src/Class/Friendship.o
+
+# target to build an object file
+src/Class/Friendship.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/Friendship.cpp.o
+.PHONY : src/Class/Friendship.cpp.o
+
+src/Class/Friendship.i: src/Class/Friendship.cpp.i
+
+.PHONY : src/Class/Friendship.i
+
+# target to preprocess a source file
+src/Class/Friendship.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/Friendship.cpp.i
+.PHONY : src/Class/Friendship.cpp.i
+
+src/Class/Friendship.s: src/Class/Friendship.cpp.s
+
+.PHONY : src/Class/Friendship.s
+
+# target to generate assembly for a file
+src/Class/Friendship.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/Friendship.cpp.s
+.PHONY : src/Class/Friendship.cpp.s
+
 src/Class/SpecialMembers.o: src/Class/SpecialMembers.cpp.o
 
 .PHONY : src/Class/SpecialMembers.o
@@ -563,6 +590,9 @@ help:
 	@echo "... src/Class/ClassII.o"
 	@echo "... src/Class/ClassII.i"
 	@echo "... src/Class/ClassII.s"
+	@echo "... src/Class/Friendship.o"
+	@echo "... src/Class/Friendship.i"
+	@echo "... src/Class/Friendship.s"
 	@echo "... src/Class/SpecialMembers.o"
 	@echo "... src/Class/SpecialMembers.i"
 	@echo "... src/Class/SpecialMembers.s"

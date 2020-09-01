@@ -90,6 +90,9 @@
 		<Unit filename="/home/yorunoomo/Scrivania/C++/src/Class/ClassII.cpp">
 			<Option target="C__"/>
 		</Unit>
+		<Unit filename="/home/yorunoomo/Scrivania/C++/src/Class/Friendship.cpp">
+			<Option target="C__"/>
+		</Unit>
 		<Unit filename="/home/yorunoomo/Scrivania/C++/src/Class/SpecialMembers.cpp">
 			<Option target="C__"/>
 		</Unit>
