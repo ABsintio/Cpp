@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C__.dir/src/Class/ClassI.cpp.o"
   "CMakeFiles/C__.dir/src/Class/ClassII.cpp.o"
   "CMakeFiles/C__.dir/src/Class/Friendship.cpp.o"
+  "CMakeFiles/C__.dir/src/Class/Polymorphism.cpp.o"
   "CMakeFiles/C__.dir/src/Class/SpecialMembers.cpp.o"
   "CMakeFiles/C__.dir/src/Costanti/Costanti.cpp.o"
   "CMakeFiles/C__.dir/src/Data_Structures/Struct.cpp.o"

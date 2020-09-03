@@ -1,0 +1,13 @@
+POINTER TO BASE CLASS
+rect.area() = 20
+trgl.area() = 10
+
+VIRTUAL MEMBERS
+ppoly1->area() = 20
+ppoly2->area() = 10
+ppoly3->area() = 0
+
+ABSTRACT CLASS
+po.getValue() = 2
+pt.getValue() = 3
+pth.getValue() = 4

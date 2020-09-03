@@ -10,6 +10,9 @@ specialmember:
 friendship:
 	g++ Friendship.cpp -o Friendship.exe
 
+polymorphism:
+	g++ Polymorphism.cpp -o Polymorphism.exe
+
 runI:
 	./ClassI.exe > ClassI.out
 
@@ -22,15 +25,20 @@ runSpecialMembers:
 runFriendship:
 	./Friendship.exe > Friendship.out
 
+runPolymorphism:
+	./Polymorphism.exe > Polymorphism.out
+
 run:
 	make classI
 	make classII
 	make specialmember
 	make friendship
+	make polymorphism
 	make runI
 	make runII
 	make runSpecialMembers
 	make runFriendship
+	make runPolymorphism
 	make clean
 
 clean:

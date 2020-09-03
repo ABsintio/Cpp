@@ -224,6 +224,33 @@ src/Class/Friendship.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/Friendship.cpp.s
 .PHONY : src/Class/Friendship.cpp.s
 
+src/Class/Polymorphism.o: src/Class/Polymorphism.cpp.o
+
+.PHONY : src/Class/Polymorphism.o
+
+# target to build an object file
+src/Class/Polymorphism.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/Polymorphism.cpp.o
+.PHONY : src/Class/Polymorphism.cpp.o
+
+src/Class/Polymorphism.i: src/Class/Polymorphism.cpp.i
+
+.PHONY : src/Class/Polymorphism.i
+
+# target to preprocess a source file
+src/Class/Polymorphism.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/Polymorphism.cpp.i
+.PHONY : src/Class/Polymorphism.cpp.i
+
+src/Class/Polymorphism.s: src/Class/Polymorphism.cpp.s
+
+.PHONY : src/Class/Polymorphism.s
+
+# target to generate assembly for a file
+src/Class/Polymorphism.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Class/Polymorphism.cpp.s
+.PHONY : src/Class/Polymorphism.cpp.s
+
 src/Class/SpecialMembers.o: src/Class/SpecialMembers.cpp.o
 
 .PHONY : src/Class/SpecialMembers.o
@@ -593,6 +620,9 @@ help:
 	@echo "... src/Class/Friendship.o"
 	@echo "... src/Class/Friendship.i"
 	@echo "... src/Class/Friendship.s"
+	@echo "... src/Class/Polymorphism.o"
+	@echo "... src/Class/Polymorphism.i"
+	@echo "... src/Class/Polymorphism.s"
 	@echo "... src/Class/SpecialMembers.o"
 	@echo "... src/Class/SpecialMembers.i"
 	@echo "... src/Class/SpecialMembers.s"

@@ -18,4 +18,4 @@ add_executable(C__
         src/Variabili\ e\ Tipi/String.cpp
         src/Class/ClassI.cpp
         src/Class/ClassII.cpp
-        src/Class/SpecialMembers.cpp src/Class/Friendship.cpp)
+        src/Class/SpecialMembers.cpp src/Class/Friendship.cpp src/Class/Polymorphism.cpp)
