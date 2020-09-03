@@ -359,6 +359,33 @@ src/Dynamic_Memory/DinMemory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Dynamic_Memory/DinMemory.cpp.s
 .PHONY : src/Dynamic_Memory/DinMemory.cpp.s
 
+src/Exception/Exceptions.o: src/Exception/Exceptions.cpp.o
+
+.PHONY : src/Exception/Exceptions.o
+
+# target to build an object file
+src/Exception/Exceptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Exception/Exceptions.cpp.o
+.PHONY : src/Exception/Exceptions.cpp.o
+
+src/Exception/Exceptions.i: src/Exception/Exceptions.cpp.i
+
+.PHONY : src/Exception/Exceptions.i
+
+# target to preprocess a source file
+src/Exception/Exceptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Exception/Exceptions.cpp.i
+.PHONY : src/Exception/Exceptions.cpp.i
+
+src/Exception/Exceptions.s: src/Exception/Exceptions.cpp.s
+
+.PHONY : src/Exception/Exceptions.s
+
+# target to generate assembly for a file
+src/Exception/Exceptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/src/Exception/Exceptions.cpp.s
+.PHONY : src/Exception/Exceptions.cpp.s
+
 src/Funzioni/Funzioni.o: src/Funzioni/Funzioni.cpp.o
 
 .PHONY : src/Funzioni/Funzioni.o
@@ -635,6 +662,9 @@ help:
 	@echo "... src/Dynamic_Memory/DinMemory.o"
 	@echo "... src/Dynamic_Memory/DinMemory.i"
 	@echo "... src/Dynamic_Memory/DinMemory.s"
+	@echo "... src/Exception/Exceptions.o"
+	@echo "... src/Exception/Exceptions.i"
+	@echo "... src/Exception/Exceptions.s"
 	@echo "... src/Funzioni/Funzioni.o"
 	@echo "... src/Funzioni/Funzioni.i"
 	@echo "... src/Funzioni/Funzioni.s"
